@@ -285,6 +285,7 @@ Add these times together to know when you should leave home. This way, you'll ar
 
 What are some limitations of your application?
 ##### ✅ Answer:
+* Its a mental health coach, but will advise on all sorts of stuff..
 * it has no access to my calendar to know appointments or flight time, or really anthing else
 * it has no access to the web, to even know what today is.  it cant check if my flight is on-time or delayed, or what real travel time is
 * it has no maps access to know how far away I am from the airport.
@@ -301,12 +302,15 @@ Please make adjustments to your application that you believe will improve the vi
 
 #### 🏗️ Activity #1
 ##### Adjustments Made:
-- _describe adjustment(s) here_
+I tightend the prompt to :
+* not answer questions outside of the mental health domain
+* reference 911 and Emergeny rooms if the person is in distress
+* reference a particular place for couples specific therapy
 
 ##### Results:
-1. _Comment here how the change(s) impacted the vibe check of your system_
-2.
-3.
+1. Unless you ask about mental health -> I'm here to support you with mental health and emotional wellbeing. If you have questions about stress management, motivation, or personal growth, feel free to ask! For recipes or cooking advice, I recommend checking out dedicated culinary resources or websites.
+2. If you mention killing someone -> I genuinely appreciate you reaching out and sharing these feelings. It’s really important to talk about this, and I encourage you to seek immediate help. Please call 911 or go to your local emergency room. You don’t have to face this alone; there are professionals who can help you through this moment. Your safety and the safety of others is the priority.
+3. If you ask about how your wife is awful -> I’m sorry to hear that you’re experiencing difficulties in your relationship. It can be really challenging when things aren't going smoothly. While I can't provide specific relationship advice, I encourage you to explore your feelings and communicate openly with your wife. It might also be helpful to seek support tailored to relationships. You can visit https://relationallife.com/ for resources that might be beneficial. Remember to take care of your own mental wellbeing during this time as well.
 4.
 5.
 

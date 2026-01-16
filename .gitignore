@@ -2,3 +2,4 @@
 .env
 content/
 .claude/
+.venv/
