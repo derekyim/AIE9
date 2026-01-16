@@ -285,6 +285,7 @@ Add these times together to know when you should leave home. This way, you'll ar
 
 What are some limitations of your application?
 ##### ✅ Answer:
+
 * Its a mental health coach, but will advise on all sorts of stuff..
 * it has no access to my calendar to know appointments or flight time, or really anthing else
 * it has no access to the web, to even know what today is.  it cant check if my flight is on-time or delayed, or what real travel time is
