@@ -1,0 +1,86 @@
+question_number,question,response,context_count,similarity_score_1,similarity_score_2,similarity_score_3
+1,What are the early warning signs of heart disease and when should I see a doctor?,"I don't have information about the early warning signs of heart disease or specific guidance on when to see a doctor in the provided context. The context mainly covers the importance of a healthy diet and lifestyle to reduce the risk of heart disease, risk factors for coronary heart disease (CHD), and dietary recommendations.
+
+For accurate diagnosis and information about early warning signs, it is important to consult a healthcare professional who can provide personalized advice based on your health status.",3,0.471,0.459,0.433
+2,What lifestyle changes can help manage Type 2 diabetes without medication?,"Based on the provided information, managing type 2 diabetes without medication can often be achieved by adopting a healthy lifestyle. Specifically, the following lifestyle changes are recommended:
+
+1. Healthy Eating Plan: Following a balanced and healthy eating plan is essential. This involves learning how to balance what you eat and drink to help control blood sugar levels.
+
+2. Regular Physical Activity: Engaging in regular physical activity helps manage blood sugar by improving insulin use and overall metabolic health.
+
+3. Weight Management: Since being overweight or having obesity is a factor in causing type 2 diabetes, maintaining a healthy weight through diet and exercise is important.
+
+These lifestyle modifications can help many people control their blood sugar levels, potentially without the need for medication, although some individuals may still need medicines including oral medications or insulin over time.
+
+Additionally, it is important to regularly monitor blood sugar levels and keep blood pressure and cholesterol close to target levels, as advised by a healthcare provider.
+
+Please remember to consult healthcare professionals for personalized medical advice and to determine the best management plan for your condition. 
+
+This summary is supported primarily by Source 1 and Source 3, which emphasize healthy eating, physical activity, and balanced management with or without medicines.",3,0.636,0.546,0.54
+3,How is Alzheimer's disease diagnosed and what are the current treatment options?,"Alzheimer's disease (AD) is diagnosed through a series of steps to determine if symptoms such as memory loss and changes in thinking are related to AD rather than normal aging or other health conditions. According to the provided information:
+
+**Diagnosis:**
+- Your healthcare provider will review your medical history and any medications you are taking.
+- Tests will be conducted to check memory, thinking, and problem-solving skills.
+- Your provider may ask about any changes in behavior or personality.
+- Tests are done to rule out other medical or mental health conditions that could cause similar symptoms.
+- Providers may refer you to a specialist in older adult care.
+- A neurologist, a doctor specializing in diseases of the brain and nervous system, may also be recommended for further evaluation (Source 2 and Source 1).
+
+**Treatment:**
+- Currently, no treatment can stop Alzheimer's disease.
+- Some medicines may help keep symptoms from getting worse for a limited time (Source 1).
+
+It is important to consult healthcare professionals for a thorough evaluation and discussion of treatment options tailored to your individual condition.
+
+Additionally, lifestyle factors such as managing chronic health issues, engaging in regular physical activity, eating a healthy diet, quitting smoking, getting enough sleep, and developing strong social connections may promote brain health and overall well-being (Source 1).
+
+Please remember to consult with healthcare providers for personalized medical advice and diagnosis.",3,0.551,0.453,0.452
+4,What are the most effective treatments for chronic obstructive pulmonary disease (COPD)?,"I don't have information about treatments for chronic obstructive pulmonary disease (COPD) in the provided wellness knowledge base. The context focuses on stress management, insomnia treatments, and type 2 diabetes management, but does not cover COPD.
+
+For medical advice and treatment options for COPD, I recommend consulting a healthcare professional who can provide personalized guidance.",3,0.33,0.306,0.302
+5,What screening tests are recommended for early detection of colorectal cancer?,"I don't have information about the recommended screening tests for early detection of colorectal cancer in the provided wellness knowledge base.
+
+For specific guidance on colorectal cancer screening, it is important to consult with healthcare professionals who can provide personalized recommendations based on individual risk factors.",3,0.282,0.245,0.229
+6,How can chronic kidney disease be slowed or prevented from progressing?,"The provided context does not contain specific information about slowing or preventing the progression of chronic kidney disease. It mostly discusses prevention and management strategies for type 2 diabetes, Alzheimer's disease, and heart health.
+
+For detailed and personalized advice on managing chronic kidney disease, it is important to consult healthcare professionals who specialize in kidney health. They can provide guidance based on your individual condition and medical history.",3,0.412,0.405,0.374
+7,What are the warning signs of a stroke and what should I do if someone is having one?,"I don't have information about the warning signs of a stroke or what to do if someone is having one in the context provided. The sources mainly discuss Alzheimer's disease, its symptoms, treatments, and prevention, as well as some information on type 2 diabetes prevention.
+
+For stroke-related concerns, it is important to consult healthcare professionals promptly for accurate diagnosis and advice. If you suspect someone is having a stroke, seeking emergency medical help immediately is crucial.",3,0.398,0.397,0.363
+8,What medications are commonly prescribed for managing clinical depression?,"I don't have information about medications commonly prescribed for managing clinical depression in the provided wellness knowledge base. The context focuses on stress management, insomnia techniques, natural headache remedies, and digestive health, but does not mention specific medications for clinical depression.
+
+For medical advice and treatment options for clinical depression, I gently remind you to consult a qualified healthcare professional.",3,0.336,0.312,0.261
+9,How is arthritis diagnosed and what treatments help reduce joint inflammation?,"I don't have information about how arthritis is diagnosed or what treatments help reduce joint inflammation in the provided context. The sources focus on type 2 diabetes and Alzheimer's disease, but do not cover arthritis.
+
+For accurate diagnosis and treatment options for arthritis, I recommend consulting a healthcare professional who can provide personalized advice based on clinical evaluation.",3,0.325,0.317,0.316
+10,What are the best approaches for treating and managing obesity long-term?,"The best approaches for treating and managing obesity long-term, based on the provided context, involve a combination of lifestyle changes focused on diet, exercise, and behavioral support:
+
+1. Healthy Eating:
+   - Choose a diet rich in fruits, vegetables, and whole grains.
+   - Opt for lean proteins such as chicken, fish, beans, and legumes.
+   - Select low-fat dairy products, such as 1% milk and other low-fat items.
+   - Avoid sodium (salt) and fats found in fried foods, processed foods, and baked goods.
+   - Reduce consumption of animal products that contain cheese, cream, or eggs.
+   - Read labels to make healthier food choices.
+   - Eat less overall to assist in weight loss.
+
+2. Physical Activity:
+   - Exercise at least 30 minutes a day as part of a regular routine.
+
+3. Weight Loss Support:
+   - Join a weight loss program if you need to lose weight.
+
+4. Stress Management:
+   - Learn healthy ways to cope with stress through special classes or programs, or through practices like meditation or yoga.
+
+5. Alcohol Consumption:
+   - Limit alcohol intake to 1 drink a day for women and 2 for men.
+
+Adhering to these healthy lifestyle interventions can help you maintain a healthy weight and improve heart health. These behavioral approaches are emphasized for long-term management and prevention of diseases related to obesity.
+
+Please remember to consult healthcare professionals for personalized medical advice and before starting any weight loss or exercise programs.",3,0.416,0.416,0.37
+11,what is the best treatment for Celiac disease?,"I don't have information about the treatment for Celiac disease in the provided wellness knowledge base. The sources focus on diabetes, its diagnosis, treatments, and prevention. 
+
+For accurate and personalized advice on Celiac disease, please consult a healthcare professional.",3,0.34,0.307,0.3
+12,what are the common symptoms of Lupus?,"I don't have information about the symptoms of Lupus in my wellness knowledge base based on the provided context. The available sources discuss diabetes symptoms and lifestyle wellness but do not mention Lupus. For information about Lupus symptoms, please consult a healthcare professional.",3,0.301,0.301,0.261
