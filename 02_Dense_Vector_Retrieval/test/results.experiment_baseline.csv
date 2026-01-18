@@ -1,86 +1,166 @@
 question_number,question,response,context_count,similarity_score_1,similarity_score_2,similarity_score_3
-1,What are the early warning signs of heart disease and when should I see a doctor?,"I don't have information about the early warning signs of heart disease or specific guidance on when to see a doctor in the provided context. The context mainly covers the importance of a healthy diet and lifestyle to reduce the risk of heart disease, risk factors for coronary heart disease (CHD), and dietary recommendations.
+1,What are the early warning signs of heart disease and when should I see a doctor?,"I don't have information about the early warning signs of heart disease or specific recommendations on when to see a doctor based on the provided context. The sources mainly focus on risk factors, diet recommendations, and lifestyle changes to reduce the risk of heart disease, but they do not describe early symptoms or guidance on medical consultation timing.
 
-For accurate diagnosis and information about early warning signs, it is important to consult a healthcare professional who can provide personalized advice based on your health status.",3,0.471,0.459,0.433
-2,What lifestyle changes can help manage Type 2 diabetes without medication?,"Based on the provided information, managing type 2 diabetes without medication can often be achieved by adopting a healthy lifestyle. Specifically, the following lifestyle changes are recommended:
+For personalized advice and diagnosing symptoms, it is important to consult a healthcare professional who can assess your individual condition and recommend appropriate care.",3,0.471,0.459,0.433
+2,What lifestyle changes can help manage Type 2 diabetes without medication?,"Based on the information provided in the context, managing type 2 diabetes without medication involves adopting a healthy lifestyle. Specifically, this includes:
 
-1. Healthy Eating Plan: Following a balanced and healthy eating plan is essential. This involves learning how to balance what you eat and drink to help control blood sugar levels.
+1. Following a healthy eating plan: Learning to balance what you eat and drink is crucial for managing blood sugar levels.
+2. Getting regular physical activity: Engaging in consistent exercise helps control blood sugar and supports overall health.
 
-2. Regular Physical Activity: Engaging in regular physical activity helps manage blood sugar by improving insulin use and overall metabolic health.
+Together, healthy eating and regular physical activity help many people manage their blood sugar levels effectively, potentially reducing or delaying the need for diabetes medications (Source 1 and Source 3).
 
-3. Weight Management: Since being overweight or having obesity is a factor in causing type 2 diabetes, maintaining a healthy weight through diet and exercise is important.
+Additionally, it's important to regularly check blood sugar levels as advised by your healthcare provider, and to monitor blood pressure and cholesterol to stay within healthy targets, although these are more medical management aspects (Source 1).
 
-These lifestyle modifications can help many people control their blood sugar levels, potentially without the need for medication, although some individuals may still need medicines including oral medications or insulin over time.
+Please note that while lifestyle changes are fundamental, you should consult with your healthcare professional to tailor a plan that is safe and effective for your specific health needs.",3,0.636,0.546,0.54
+3,How is Alzheimer's disease diagnosed and what are the current treatment options?,"Alzheimer's disease (AD) is diagnosed through a careful process to determine if symptoms like memory loss are due to AD or other causes. According to the information provided:
 
-Additionally, it is important to regularly monitor blood sugar levels and keep blood pressure and cholesterol close to target levels, as advised by a healthcare provider.
+Diagnosis:
+- Your healthcare provider will review your medical history and the medicines you are taking.
+- Tests will be conducted to check your memory, thinking, and problem-solving skills.
+- The provider will ask about any changes in your behavior or personality.
+- Tests may be done to rule out any medical or mental health conditions.
+- You might be referred to a provider specializing in care for older adults, or to a neurologist who specializes in diseases of the brain and nervous system (Sources 1 and 2).
 
-Please remember to consult healthcare professionals for personalized medical advice and to determine the best management plan for your condition. 
-
-This summary is supported primarily by Source 1 and Source 3, which emphasize healthy eating, physical activity, and balanced management with or without medicines.",3,0.636,0.546,0.54
-3,How is Alzheimer's disease diagnosed and what are the current treatment options?,"Alzheimer's disease (AD) is diagnosed through a series of steps to determine if symptoms such as memory loss and changes in thinking are related to AD rather than normal aging or other health conditions. According to the provided information:
-
-**Diagnosis:**
-- Your healthcare provider will review your medical history and any medications you are taking.
-- Tests will be conducted to check memory, thinking, and problem-solving skills.
-- Your provider may ask about any changes in behavior or personality.
-- Tests are done to rule out other medical or mental health conditions that could cause similar symptoms.
-- Providers may refer you to a specialist in older adult care.
-- A neurologist, a doctor specializing in diseases of the brain and nervous system, may also be recommended for further evaluation (Source 2 and Source 1).
-
-**Treatment:**
-- Currently, no treatment can stop Alzheimer's disease.
+Treatment:
+- There is currently no treatment that can stop Alzheimer's disease.
 - Some medicines may help keep symptoms from getting worse for a limited time (Source 1).
 
-It is important to consult healthcare professionals for a thorough evaluation and discussion of treatment options tailored to your individual condition.
+It's important to note that Alzheimer's disease begins slowly and involves brain areas controlling thought, memory, and language, and can be mistaken for normal aging changes but it is not a normal part of aging (Source 3).
 
-Additionally, lifestyle factors such as managing chronic health issues, engaging in regular physical activity, eating a healthy diet, quitting smoking, getting enough sleep, and developing strong social connections may promote brain health and overall well-being (Source 1).
+For overall brain health and potentially reducing risk, lifestyle factors such as managing chronic health issues (e.g., high blood pressure or hearing loss), regular physical activity, healthy diet, quitting smoking, getting enough sleep, and developing strong social connections may be helpful, although these are more preventive measures (Source 1).
 
-Please remember to consult with healthcare providers for personalized medical advice and diagnosis.",3,0.551,0.453,0.452
-4,What are the most effective treatments for chronic obstructive pulmonary disease (COPD)?,"I don't have information about treatments for chronic obstructive pulmonary disease (COPD) in the provided wellness knowledge base. The context focuses on stress management, insomnia treatments, and type 2 diabetes management, but does not cover COPD.
+Please remember, this information is based on the current knowledge presented here, and consulting healthcare professionals is essential for personal diagnosis and treatment planning.",3,0.527,0.453,0.452
+4,What are the most effective treatments for chronic obstructive pulmonary disease (COPD)?,"The most effective treatments for chronic obstructive pulmonary disease (COPD) focus on managing symptoms, slowing disease progression, and improving quality of life. Based on the provided context, these treatments include a combination of lifestyle changes, medications, therapies, and sometimes surgery:
 
-For medical advice and treatment options for COPD, I recommend consulting a healthcare professional who can provide personalized guidance.",3,0.33,0.306,0.302
-5,What screening tests are recommended for early detection of colorectal cancer?,"I don't have information about the recommended screening tests for early detection of colorectal cancer in the provided wellness knowledge base.
+1. Lifestyle Changes:
+- Quitting smoking if you are a smoker, which is the most important step in treating COPD.
+- Avoiding secondhand smoke and places where lung irritants may be present.
+- Following an eating plan that meets nutritional needs and engaging in appropriate physical activity to strengthen breathing muscles and overall wellness (Source 1, Source 3).
 
-For specific guidance on colorectal cancer screening, it is important to consult with healthcare professionals who can provide personalized recommendations based on individual risk factors.",3,0.282,0.245,0.229
-6,How can chronic kidney disease be slowed or prevented from progressing?,"The provided context does not contain specific information about slowing or preventing the progression of chronic kidney disease. It mostly discusses prevention and management strategies for type 2 diabetes, Alzheimer's disease, and heart health.
+2. Medications:
+- Bronchodilators, which relax muscles around the airways to open them and ease breathing, usually administered via inhalers. In severe cases, inhalers may also include steroids to reduce inflammation.
+- Vaccines for the flu and pneumococcal pneumonia to prevent infections since people with COPD are at higher risk.
+- Antibiotics to treat bacterial lung infections if they occur (Source 1, Source 2).
 
-For detailed and personalized advice on managing chronic kidney disease, it is important to consult healthcare professionals who specialize in kidney health. They can provide guidance based on your individual condition and medical history.",3,0.412,0.405,0.374
-7,What are the warning signs of a stroke and what should I do if someone is having one?,"I don't have information about the warning signs of a stroke or what to do if someone is having one in the context provided. The sources mainly discuss Alzheimer's disease, its symptoms, treatments, and prevention, as well as some information on type 2 diabetes prevention.
+3. Oxygen Therapy:
+- For people with severe COPD who have low blood oxygen levels, oxygen therapy can help improve breathing. It may be needed continuously or only during certain times (Source 1, Source 2).
 
-For stroke-related concerns, it is important to consult healthcare professionals promptly for accurate diagnosis and advice. If you suspect someone is having a stroke, seeking emergency medical help immediately is crucial.",3,0.398,0.397,0.363
-8,What medications are commonly prescribed for managing clinical depression?,"I don't have information about medications commonly prescribed for managing clinical depression in the provided wellness knowledge base. The context focuses on stress management, insomnia techniques, natural headache remedies, and digestive health, but does not mention specific medications for clinical depression.
+4. Pulmonary Rehabilitation:
+- A comprehensive program that may include exercise, disease management training, nutritional counseling, and psychological counseling to improve well-being (Source 2).
 
-For medical advice and treatment options for clinical depression, I gently remind you to consult a qualified healthcare professional.",3,0.336,0.312,0.261
-9,How is arthritis diagnosed and what treatments help reduce joint inflammation?,"I don't have information about how arthritis is diagnosed or what treatments help reduce joint inflammation in the provided context. The sources focus on type 2 diabetes and Alzheimer's disease, but do not cover arthritis.
+5. Surgery (last resort):
+- For severe symptoms not improved by medications, surgeries may be considered, such as removal of damaged lung tissue or large air spaces (bullae) related to emphysema.
+- Lung transplant may be an option for severe COPD cases (Source 2).
 
-For accurate diagnosis and treatment options for arthritis, I recommend consulting a healthcare professional who can provide personalized advice based on clinical evaluation.",3,0.325,0.317,0.316
-10,What are the best approaches for treating and managing obesity long-term?,"The best approaches for treating and managing obesity long-term, based on the provided context, involve a combination of lifestyle changes focused on diet, exercise, and behavioral support:
+There is no cure for COPD, but these treatments aim to help manage symptoms, prevent complications, and allow patients to maintain activity levels and quality of life (Source 3).
 
-1. Healthy Eating:
-   - Choose a diet rich in fruits, vegetables, and whole grains.
-   - Opt for lean proteins such as chicken, fish, beans, and legumes.
-   - Select low-fat dairy products, such as 1% milk and other low-fat items.
-   - Avoid sodium (salt) and fats found in fried foods, processed foods, and baked goods.
-   - Reduce consumption of animal products that contain cheese, cream, or eggs.
-   - Read labels to make healthier food choices.
-   - Eat less overall to assist in weight loss.
+Please remember to consult healthcare professionals for personalized medical advice and treatment decisions.",3,0.704,0.658,0.617
+5,What screening tests are recommended for early detection of colorectal cancer?,"The recommended screening tests for early detection of colorectal cancer include different stool tests and procedures such as colonoscopies and flexible sigmoidoscopy. These screening tests are important because colorectal cancer may not cause symptoms at first, and the tests help find cancer early when it may be easier to treat (Source 1). 
 
-2. Physical Activity:
-   - Exercise at least 30 minutes a day as part of a regular routine.
+If screening test results are abnormal or if symptoms suggest colorectal cancer, further diagnostic tests may be performed, including a physical exam, digital rectal exam, repeat colonoscopy or stool tests, biopsy, and other blood and tissue tests (Source 2).
 
-3. Weight Loss Support:
-   - Join a weight loss program if you need to lose weight.
+Most experts recommend beginning screening at age 45 and continuing until at least age 75. People over 75 or those at high risk should discuss with their healthcare providers how often to screen and which type of test to get (Source 1).
 
-4. Stress Management:
-   - Learn healthy ways to cope with stress through special classes or programs, or through practices like meditation or yoga.
+For the most appropriate screening method and schedule based on personal risk factors, consulting with a healthcare provider is advised. This is important to tailor screening to individual health status and risk profile.
 
-5. Alcohol Consumption:
-   - Limit alcohol intake to 1 drink a day for women and 2 for men.
+Please remember to consult a healthcare professional for personalized medical advice and to determine the best screening plan for you.",3,0.657,0.607,0.535
+6,How can chronic kidney disease be slowed or prevented from progressing?,"Chronic kidney disease (CKD) cannot be cured, but its progression may be slowed with certain treatments and lifestyle measures. According to the context:
 
-Adhering to these healthy lifestyle interventions can help you maintain a healthy weight and improve heart health. These behavioral approaches are emphasized for long-term management and prevention of diseases related to obesity.
+1. Treatments to slow CKD include medicines to:
+   - Lower blood pressure
+   - Control blood sugar
+   - Lower cholesterol
 
-Please remember to consult healthcare professionals for personalized medical advice and before starting any weight loss or exercise programs.",3,0.416,0.416,0.37
-11,what is the best treatment for Celiac disease?,"I don't have information about the treatment for Celiac disease in the provided wellness knowledge base. The sources focus on diabetes, its diagnosis, treatments, and prevention. 
+2. Steps to keep kidneys healthier longer and help slow the progression of CKD include:
+   - Choosing foods with less salt (sodium)
+   - Controlling your blood pressure according to healthcare provider recommendations
+   - Keeping blood sugar within the target range if you have diabetes
+   - Limiting alcohol intake
+   - Choosing heart-healthy foods such as fruits, vegetables, whole grains, and low-fat dairy foods
+   - Losing weight if overweight
+   - Being physically active
+   - Not smoking
 
-For accurate and personalized advice on Celiac disease, please consult a healthcare professional.",3,0.34,0.307,0.3
-12,what are the common symptoms of Lupus?,"I don't have information about the symptoms of Lupus in my wellness knowledge base based on the provided context. The available sources discuss diabetes symptoms and lifestyle wellness but do not mention Lupus. For information about Lupus symptoms, please consult a healthcare professional.",3,0.301,0.301,0.261
+These steps can help reduce further damage to the kidneys and slow the worsening of CKD (Sources 1 and 3).
+
+It is important to work closely with a healthcare provider for proper management and to get regular blood and urine tests to monitor kidney function. Please remember to consult your healthcare professional for personalized medical advice.",3,0.642,0.517,0.445
+7,What are the warning signs of a stroke and what should I do if someone is having one?,"The warning signs of a stroke often happen quickly and include:
+
+- Sudden numbness or weakness of the face, arm, or leg, especially on one side of the body
+- Sudden confusion, trouble speaking, or understanding speech
+- Sudden trouble seeing in one or both eyes
+- Sudden difficulty walking, dizziness, loss of balance, or lack of coordination
+- Sudden severe headache with no known cause
+
+A helpful way to remember these signs is the F.A.S.T. test:
+
+- Face drooping on one side when smiling.
+- Arm weakness when both arms are raised and one arm drifts downward.
+- Speech difficulties, such as slurred or strange speech.
+- Time to call 911 immediately.
+
+If you think someone is having a stroke, call 911 right away. Every minute counts during a stroke, and immediate treatment can save a person's life and improve chances for recovery (Sources 1, 2, and 3).
+
+Please remember, if you suspect a stroke, seek emergency medical help without delay. Consulting healthcare professionals promptly is essential for the best outcome.",3,0.668,0.635,0.615
+8,What medications are commonly prescribed for managing clinical depression?,"Based on the provided information, medications commonly prescribed for managing clinical depression include antidepressants. These medicines may help control symptoms of depression, but it is noted that several different medicines might need to be tried to find the one that works best for an individual. Medicine may take time to work and can have side effects, so it is important not to stop taking medicine without first talking with a healthcare provider and to contact the provider if there are any concerns about side effects (Source 2).
+
+No specific classes or names of antidepressants are mentioned in the context, but the general approach involves the use of antidepressants as part of the treatment for depression, often along with psychotherapy (talk therapy) (Sources 1 and 2).
+
+Remember, it is important to consult with healthcare professionals for medical advice tailored to your specific condition and to discuss any treatment options or medication concerns.",3,0.552,0.505,0.438
+9,How is arthritis diagnosed and what treatments help reduce joint inflammation?,"Arthritis is diagnosed through a combination of methods by your health care provider. The process typically includes:
+
+- Asking about your medical history, including your symptoms.
+- Conducting a physical exam.
+- Ordering blood tests or taking x-rays.
+- Referral to a rheumatologist (a specialist in arthritis care) may also occur for further tests, diagnosis, and treatment (Sources 1 and 2).
+
+Regarding treatments to reduce joint inflammation and manage arthritis symptoms, they depend on the type of arthritis you have. Treatment may include medication or surgery aimed at improving symptoms and quality of life. Additionally, several supportive methods can help manage symptoms and reduce inflammation:
+
+- Use of hot or cold packs to relieve pain and swelling.
+- Relaxation techniques to reduce discomfort.
+- Use of splints, braces, or assistive devices to support joints (Source 1).
+
+Because arthritis can cause joint pain and inflammation that can worsen over time, working with your health care provider to determine the best treatment plan is essential (Source 3).
+
+Please remember that for personalized medical advice and treatment options, you should consult a health care professional.",3,0.595,0.542,0.514
+10,What are the best approaches for treating and managing obesity long-term?,"The best approaches for treating and managing obesity long-term involve a combination of lifestyle changes, medical support, and, when necessary, medical or surgical interventions. According to the provided information:
+
+1. **Healthy Eating and Exercise:** Adopting healthy nutrition and regular physical activity is foundational. Dietary changes and exercise goals help you learn how to lose weight safely and keep it off long term. A healthy lifestyle that includes healthy eating patterns and regular physical activity can also lower your chance of developing complications related to obesity. (Sources 1, 2)
+
+2. **Weight Loss Support:** Counseling or support groups can provide encouragement and help you understand the underlying reasons for weight changes, which supports sustained weight loss. (Source 1)
+
+3. **Medical Treatments:** Weight-loss medicines can be prescribed to treat obesity, based on your overall health conditions and willingness to participate in a weight-loss plan. (Source 1, 2)
+
+4. **Surgical Options:** For severe obesity or serious obesity-related health problems where other methods have not been effective, weight loss procedures or surgery may be considered. (Sources 1, 2)
+
+5. **Setting Realistic Goals:** Your healthcare provider can assist you by determining a healthy target weight, helping set realistic goals, and providing tips tailored to your needs. Losing even 5 to 10% of your body weight (for example, 10 to 20 pounds if you weigh 200 pounds) can delay or prevent many obesity-related diseases. (Sources 1, 3)
+
+In summary, managing obesity long-term typically involves a comprehensive approach that includes lifestyle modifications, behavioral support, possible medication, and surgical interventions when appropriate. It is important to work closely with healthcare professionals to develop a personalized treatment plan.
+
+**Gentle reminder:** Please consult your healthcare provider for personalized medical advice and treatment options.",3,0.598,0.475,0.454
+11,what is the best treatment for Celiac disease?,"The best treatment for celiac disease, according to the provided information, is to follow a gluten-free diet for the rest of your life. Sticking with a gluten-free diet will treat or prevent many of the symptoms and other health problems caused by celiac disease. In most cases, it can also heal damage in the small intestine and prevent further damage (Source 1).
+
+Your healthcare provider may also refer you to a registered dietician who can help you learn how to eat a healthy diet without gluten. Additionally, it is important to avoid all hidden sources of gluten, which may include certain supplements, cosmetics, and toothpaste, by carefully reading product labels (Source 1).
+
+Because untreated celiac disease can lead to severe health problems such as malnutrition, anemia, bone loss, nervous system issues, and reproductive problems, adhering strictly to a gluten-free diet is crucial to manage the condition and maintain overall health (Source 2).
+
+Please remember to consult your healthcare provider or a specialist for personalized medical advice and management of celiac disease.",3,0.671,0.532,0.529
+12,what are the common symptoms of Lupus?,"Common symptoms of lupus can vary from person to person but often include the following, as described in the provided context:
+
+- Arthritis, causing painful and swollen joints and morning stiffness
+- Fever
+- Fatigue or feeling tired often
+- Red rashes, most often on the face (also called the ""butterfly rash"")
+- Chest pain when taking a deep breath
+- Hair loss
+- Pale or purple fingers or toes caused by cold and stress (Raynaud phenomenon)
+- Sensitivity to the sun
+- Swelling in legs or around eyes
+- Mouth ulcers
+- Swollen glands
+- Headache and dizziness
+- Confusion and memory problems
+
+Additionally, symptoms may come and go in what is called a ""flare,"" which can range from mild to severe, and new symptoms may appear at any time (Sources 1 and 2).
+
+If you experience symptoms like these or suspect lupus, it's important to consult a healthcare professional for diagnosis and management.",3,0.688,0.606,0.564

@@ -1,0 +1,166 @@
+question_number,question,response,context_count,similarity_score_1,similarity_score_2,similarity_score_3
+1,What are the early warning signs of heart disease and when should I see a doctor?,"The provided context does not specifically list the early warning signs of heart disease or when to see a doctor for it. However, it does describe risk factors for coronary heart disease (CHD) and mentions symptoms of a stroke, which is related to cardiovascular health but distinct from heart disease symptoms. 
+
+For heart disease, the context explains that it involves the narrowing of blood vessels supplying the heart and lists risk factors (some changeable, some not), along with ways to lessen risk through lifestyle changes such as controlling blood pressure and diabetes, exercising, eating a heart-healthy diet, maintaining healthy weight, managing stress, and limiting alcohol intake (Source 1 and Source 3).
+
+Since specific early warning signs of heart disease are not detailed in the context, and because symptoms can vary widely, it is important to consult a healthcare professional if you have concerns about heart disease or experience any unusual symptoms such as chest pain, shortness of breath, or extreme fatigue.
+
+Please remember to seek advice from a healthcare provider for accurate diagnosis and personalized recommendations concerning heart disease.
+
+If you want, I can also provide information on the stroke symptoms mentioned in the context. Would you like that?",3,0.825,0.816,0.814
+2,What lifestyle changes can help manage Type 2 diabetes without medication?,"Based on the provided context, lifestyle changes that can help manage Type 2 diabetes without medication include:
+
+1. Following a healthy eating plan: This means choosing foods that help balance your blood sugar levels. Eating a diet that supports good glucose control is a key part of managing diabetes. (Source 1, Source 2)
+
+2. Getting regular physical activity: Engaging in regular exercise helps your body use insulin more effectively and can lower blood sugar levels. (Source 1, Source 2, Source 3)
+
+3. Maintaining a healthy weight: Losing excess weight if you are overweight or obese can improve insulin sensitivity and help manage blood glucose levels. (Source 2, Source 3)
+
+These lifestyle adjustments work together to help balance what you eat and drink with your physical activity and your body's insulin use. Many people with Type 2 diabetes can manage or even reverse their condition through these changes alone. (Source 1, Source 2)
+
+It is also important to regularly check your blood sugar and work with your healthcare provider to monitor your overall health, including blood pressure and cholesterol, to reduce the risk of complications. (Source 1)
+
+Please remember to consult healthcare professionals for personalized medical advice and before making significant changes to your health regimen.",3,0.865,0.838,0.836
+3,How is Alzheimer's disease diagnosed and what are the current treatment options?,"Alzheimer's disease (AD) is diagnosed through a combination of approaches aimed at distinguishing it from normal aging or other health conditions causing similar symptoms. Healthcare providers will review your medical history and any medications you may be taking. They conduct tests to assess memory, thinking, and problem-solving skills. Providers also inquire about any changes in behavior or personality. Additional tests may be done to rule out other medical or mental health conditions. In some cases, they may refer you to a provider who specializes in caring for older adults or recommend a neurologist, a doctor specializing in diseases of the brain and nervous system, for further evaluation ([Source 1], [Source 2]).
+
+Regarding treatment, currently, no treatment exists that can stop Alzheimer's disease. However, some medicines are available that may help keep symptoms from worsening for a limited time ([Source 1]). Since AD begins slowly and impairs thinking and memory skills progressively, early diagnosis and management of symptoms can be important.
+
+Please remember that any concerns about symptoms or diagnosis should be discussed with a healthcare professional who can provide personalized medical advice and care.",3,0.861,0.839,0.833
+4,What are the most effective treatments for chronic obstructive pulmonary disease (COPD)?,"The most effective treatments for chronic obstructive pulmonary disease (COPD) involve a combination of lifestyle changes, medications, supportive therapies, and in severe cases, surgery. According to the provided context, the treatments include:
+
+1. Lifestyle Changes:
+   - Quitting smoking is the most important step for treating COPD.
+   - Avoiding secondhand smoke and places where lung irritants might be present.
+   - Following an eating plan tailored to nutritional needs.
+   - Engaging in physical activity, which strengthens the muscles that help with breathing and improves overall wellness. (Source 1, Source 3)
+
+2. Medications:
+   - Bronchodilators relax muscles around the airways, helping to open them and ease breathing. They are usually administered through inhalers. In severe cases, inhalers may contain steroids to reduce inflammation.
+   - Antibiotics are used if a bacterial lung infection occurs.
+   - Vaccines for flu and pneumococcal pneumonia to prevent serious complications due to increased risk in people with COPD. (Source 1)
+
+3. Oxygen Therapy:
+   - Provided for severe COPD when oxygen levels in the blood are low. It can help individuals breathe better and may be needed all the time or just at certain times. (Source 1, Source 2)
+
+4. Pulmonary Rehabilitation:
+   - A comprehensive program designed to improve well-being for those with chronic breathing problems. It may include exercise programs, disease management training, nutritional counseling, and psychological counseling. (Source 2)
+
+5. Surgery:
+   - Considered a last resort for severe symptoms unresponsive to medicines.
+   - Surgeries can remove damaged lung tissue or large air spaces (bullae) that interfere with breathing, particularly in emphysema-related COPD.
+   - Lung transplant may be an option for severe COPD cases. (Source 2)
+
+Although there is no cure for COPD, these treatments help manage symptoms, slow disease progression, improve activity levels, and prevent or treat complications. It is important to consult with healthcare providers to develop an individualized treatment plan.
+
+Gentle reminder: Please consult your healthcare professional for personalized medical advice and treatment options.",3,0.879,0.866,0.857
+5,What screening tests are recommended for early detection of colorectal cancer?,"The recommended screening tests for early detection of colorectal cancer include different stool tests and procedures such as colonoscopies and flexible sigmoidoscopy. It is important to start screenings at age 45 and continue until at least age 75. People over 75 or those at high risk should consult their healthcare providers about how often and what type of test they should get. Screening tests look for signs of colorectal cancer before symptoms develop and can help find cancer early when it may be easier to treat (Sources 2 and 3).
+
+If your screening test results are abnormal or if you have symptoms that could be caused by colorectal cancer, further tests might include a physical exam, digital rectal exam, repeat colonoscopy, stool tests, biopsy, and other blood and tissue tests to confirm the diagnosis (Source 1).
+
+Please remember to consult a healthcare professional to determine the most appropriate screening schedule and tests based on your individual risk factors.",3,0.882,0.878,0.85
+6,How can chronic kidney disease be slowed or prevented from progressing?,"Chronic kidney disease (CKD) cannot be cured, but its progression may be slowed with proper treatment and lifestyle changes. According to the information provided:
+
+1. Treatments may include medicines to:
+   - Lower blood pressure
+   - Control blood sugar
+   - Lower cholesterol
+
+2. Lifestyle and dietary steps you can take to keep your kidneys healthier longer and potentially slow CKD progression include:
+   - Choosing foods with less salt (sodium)
+   - Controlling your blood pressure as advised by your healthcare provider
+   - Keeping blood sugar within the target range if you have diabetes
+   - Limiting alcohol intake
+   - Choosing heart-healthy foods such as fruits, vegetables, whole grains, and low-fat dairy foods
+   - Losing weight if overweight
+   - Being physically active
+   - Not smoking
+
+These measures help to lessen further kidney damage and manage underlying causes such as diabetes and high blood pressure, which are the most common causes of CKD.
+
+It is important to regularly monitor kidney function through blood and urine tests since symptoms often do not appear until the disease is advanced.
+
+Please remember to consult your healthcare provider for personalized medical advice and treatment tailored to your condition.",3,0.871,0.847,0.841
+7,What are the warning signs of a stroke and what should I do if someone is having one?,"The warning signs of a stroke often happen quickly and include the following symptoms:
+
+- Sudden numbness or weakness of the face, arm, or leg, especially on one side of the body
+- Sudden confusion, trouble speaking, or understanding speech
+- Sudden trouble seeing in one or both eyes
+- Sudden difficulty walking, dizziness, loss of balance or coordination
+- Sudden severe headache with no known cause
+
+A helpful way to remember key signs is the F.A.S.T. test:
+
+- Face drooping on one side when smiling
+- Arm weakness when raising the arms and one arm drifts downward
+- Speech is slurred or strange
+- Time to call 911 immediately
+
+If you think that you or someone else is having a stroke, call 911 right away. Every minute counts during a stroke, and immediate treatment can save life, reduce lasting brain damage, and increase the chances of successful rehabilitation and recovery (Sources 1 and 3).
+
+Please remember to consult healthcare professionals for urgent and accurate medical evaluation and treatment.",3,0.887,0.878,0.85
+8,What medications are commonly prescribed for managing clinical depression?,"Based on the provided context, medicines such as antidepressants are commonly prescribed to help control symptoms of clinical depression. It is noted that you may need to try several different medicines to find the one that works best for you. The medicine may take some time to be effective and can have side effects. It is important not to stop taking your medicine without first talking with your healthcare provider and to contact your provider if you have any concerns about side effects from the medicine. This information can be found mainly in Source 2 and is supported by Source 1, which also highlights the importance of discussing medication-related concerns with your provider.
+
+Please remember that managing depression often involves both medication and psychotherapy, and all treatment decisions should be made in consultation with qualified healthcare professionals.",3,0.848,0.834,0.817
+9,How is arthritis diagnosed and what treatments help reduce joint inflammation?,"Arthritis is diagnosed through a combination of methods used by your health care provider. These include:
+
+- Asking about your medical history, including your symptoms.
+- Conducting a physical exam.
+- Ordering blood tests or taking x-rays.
+- In some cases, you may be referred to a rheumatologist (a doctor specializing in arthritis care) for further tests, diagnosis, and management of the condition.
+
+Regarding treatments to help reduce joint inflammation and manage arthritis symptoms, these vary depending on the type of arthritis you have, but common approaches include:
+
+- Use of medicine or surgery tailored to the specific arthritis type.
+- Lifestyle and symptom management strategies such as applying hot or cold packs to affected joints.
+- Practicing relaxation techniques to reduce stress.
+- Using splints, braces, or assistive devices to support and protect joints.
+
+Treatment aims to improve your symptoms and quality of life by reducing joint pain and inflammation, as untreated inflammation can lead to joint damage over time.
+
+Please remember to consult your healthcare provider or a specialist for personalized diagnosis and treatment recommendations suitable for your specific condition.",3,0.862,0.852,0.839
+10,What are the best approaches for treating and managing obesity long-term?,"The best approaches for treating and managing obesity long-term, as outlined in the provided context, include a combination of lifestyle changes, support, medical treatments, and possibly surgery depending on the severity of the condition:
+
+1. **Lifestyle Changes:**
+   - Adopting healthy nutrition and exercise routines to lose weight safely and maintain weight loss over time.
+   - Developing a healthy lifestyle that combines healthy eating patterns with regular physical activity. This approach not only helps in losing weight but also reduces the risk of complications related to obesity.
+
+2. **Support and Counseling:**
+   - Counseling or support groups can provide encouragement and help individuals understand the emotional or behavioral factors behind their weight changes, which can be crucial for sustained weight management.
+
+3. **Medical Treatments:**
+   - Weight-loss medications may be considered to assist in treating obesity when lifestyle interventions alone are not sufficient.
+
+4. **Weight Loss Procedures or Surgery:**
+   - In cases of severe obesity or when there are serious obesity-related health problems and weight loss through other means has been unsuccessful, weight loss procedures or surgery might be recommended.
+
+Additionally, healthcare providers play an essential role by:
+- Helping to define a healthy weight and set realistic goals.
+- Offering guidance and referring patients to specialists in nutrition or weight loss for further support.
+
+Importantly, even a modest weight loss of 5 to 10% of body weight (for example, losing 10 to 20 pounds if you weigh 200 pounds) can delay or prevent some obesity-related diseases, making gradual, sustained weight loss a beneficial target.
+
+Please remember that these treatments should be personalized based on your overall health, existing conditions, and readiness to engage in a weight-loss plan. It’s important to consult with healthcare professionals to determine the best plan tailored to your needs and to receive appropriate medical advice and supervision.",3,0.871,0.824,0.817
+11,what is the best treatment for Celiac disease?,"The best treatment for celiac disease, according to the provided information, is following a gluten-free diet for the rest of your life. Adhering strictly to a gluten-free diet helps treat or prevent many symptoms and other health problems caused by celiac disease. In most cases, this diet can also heal damage in the small intestine and prevent further damage (Source 1).
+
+Additionally, your healthcare provider may refer you to a registered dietician who can assist you in learning how to maintain a healthy diet without gluten. It is important to avoid all hidden sources of gluten, which can include certain supplements, cosmetics, toothpaste, and other products. Reading product labels carefully is necessary to avoid accidental gluten ingestion (Source 1 and 3).
+
+Please remember that managing celiac disease requires medical guidance, so it is important to consult with healthcare professionals for personalized advice and treatment planning.",3,0.878,0.847,0.841
+12,what are the common symptoms of Lupus?,"Common symptoms of lupus include:
+
+- Arthritis, causing painful and swollen joints and morning stiffness
+- Fever
+- Fatigue or feeling tired often
+- Red rashes, most often on the face (also called the ""butterfly rash"")
+- Chest pain when taking a deep breath
+- Hair loss
+- Pale or purple fingers or toes from cold and stress (Raynaud phenomenon)
+- Sensitivity to the sun
+- Swelling in legs or around eyes
+- Mouth ulcers
+- Swollen glands
+- Headache and dizziness
+- Confusion and memory problems
+
+These symptoms can vary greatly from person to person and may come and go in what are called flares, which can range from mild to severe (Source 1, Source 2).
+
+Please remember to consult a healthcare professional for personalized medical advice and proper diagnosis if you or someone you know is experiencing these symptoms.",3,0.91,0.89,0.872
