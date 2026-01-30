@@ -6,3 +6,6 @@ content/
 __pycache__/
 *.pyc
 *.pyo
+uv.lock
+
+
