@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "exported_at": "2026-02-01T17:15:32.111601",
+    "user_id": "user_sarah",
+    "source": "notebook"
+  },
+  "namespaces": {
+    "user_sarah::profile": {
+      "name": {
+        "value": "Sarah"
+      },
+      "goals": {
+        "primary": "improve sleep",
+        "secondary": "reduce stress"
+      },
+      "conditions": {
+        "allergies": [
+          "peanuts"
+        ],
+        "injuries": [
+          "bad knee",
+          "shoulder pain"
+        ]
+      }
+    },
+    "user_sarah::preferences": {
+      "communication": {
+        "style": "friendly",
+        "detail_level": "moderate"
+      },
+      "schedule": {
+        "preferred_workout_time": "morning",
+        "available_days": [
+          "Mon",
+          "Wed",
+          "Fri"
+        ]
+      }
+    },
+    "exercise_agent::instructions": {
+      "wellness_assistant": {
+        "instructions": "Updated Instructions: You are an Exercise Specialist. Your job is to provide fitness and workout guidance.\n\nCRITICAL RULES - READ CAREFULLY:\n1. ALWAYS provide a complete exercise/fitness answer if the question mentions exercise, workouts, or fitness.\n2. DO NOT use transfer tools for multi-topic questions - just answer YOUR part fully.\n3. ONLY transfer if the ENTIRE question has NOTHING to do with exercise/fitness.\n4. If user feedback indicates pain or injury, include specific instructions to be cautious about that body part and suggest modifications as needed.\n5. If user feedback is positive, reinforce the approach used and continue to apply similar strategies in future responses.\n6. Be specific about modifications needed for different fitness levels or any special considerations based on user feedback. \n\nFor a question like \"Give me an exercise, nutrition, and sleep plan\":\n- You MUST provide a complete exercise plan.\n- DO NOT transfer to nutrition or sleep - they will handle their parts separately.\n- The system will automatically route to other specialists after you respond.",
+        "version": 2
+      }
+    },
+    "exercise_agent::episodes": {
+      "episode_793902cd": {
+        "input": "can you give me an exercise, nutrition and sleep plan for the next 3 months?",
+        "response": "### Exercise Plan for the Next 3 Months\n\nTo help you improve sleep and reduce stress while considering your bad knee, here\u2019s a tailored exercise plan that focuses on low-impact activities, flexibility, and strength training. This plan is designed for your preferred workout days: Monday, Wednesday, and Friday.\n\n#### Weekly Schedule:\n\n**Monday: Strength Training (Upper Body & Core)**\n1. **Warm-Up (5-10 minutes)**: \n   - Arm circles, shoulder rolls, and gentle torso twists.\n   \n2. **Workout (30-40 ",
+        "feedback": "no feedback",
+        "timestamp": "cc253418-48dd-4978-9ec4-43dbd54347b8"
+      },
+      "episode_fbf2f60e": {
+        "input": "What exercise do you recomend to do first??",
+        "response": "To get started with your exercise routine, I recommend beginning with a **warm-up** followed by a **low-impact cardio activity**. Here\u2019s a simple plan for your first workout:\n\n### First Exercise Recommendation\n\n**1. Warm-Up (5-10 minutes)**:\n- **Arm Circles**: Stand with your arms extended to the sides and make small circles, gradually increasing the size. Do this for 1-2 minutes.\n- **Leg Swings**: Hold onto a wall or chair for balance and swing one leg forward and backward for 10-15 swings, the",
+        "feedback": "no feedback",
+        "timestamp": "1fc3b16c-016f-4171-935c-2180c60eb311"
+      },
+      "episode_413201eb": {
+        "input": "What exercise do you recomend to do first??",
+        "response": "[EXERCISE SPECIALIST]\n\nTo get started with your exercise routine, I recommend beginning with a **warm-up** followed by a **low-impact cardio activity**. Here\u2019s a simple plan for your first workout:\n\n### First Exercise Recommendation\n\n**1. Warm-Up (5-10 minutes)**:\n- **Arm Circles**: Stand with your arms extended to the sides and make small circles, gradually increasing the size. Do this for 1-2 minutes.\n- **Leg Swings**: Hold onto a wall or chair for balance and swing one leg forward and backwar",
+        "feedback": "that looks great!",
+        "timestamp": "6eaee5aa-835a-44d2-b65b-27a35c06f926"
+      },
+      "episode_c3009b78": {
+        "input": "What exercise do you recomend to do first??",
+        "response": "To get started with your exercise routine, I recommend beginning with a **warm-up** followed by a **low-impact cardio activity**. Here\u2019s a simple plan for your first workout:\n\n### First Exercise Recommendation\n\n**1. Warm-Up (5-10 minutes)**:\n- **Arm Circles**: Stand with your arms extended to the sides and make small circles, gradually increasing the size. Do this for 1-2 minutes.\n- **Leg Swings**: Hold onto a wall or chair for balance and swing one leg forward and backward for 10-15 swings, the",
+        "feedback": "no feedback",
+        "timestamp": "d0cb16b3-5d22-4abe-8b9e-af91e0c74881"
+      }
+    },
+    "nutrition_agent::instructions": {
+      "wellness_assistant": {
+        "instructions": "You are a Nutrition Specialist. Your job is to provide diet and meal planning guidance.\n\nCRITICAL RULES - READ CAREFULLY:\n1. ALWAYS provide a complete nutrition/diet answer if the question mentions food, diet, nutrition, or meals\n2. DO NOT use transfer tools for multi-topic questions - just answer YOUR part fully\n3. ONLY transfer if the ENTIRE question has NOTHING to do with nutrition/diet\n\nFor a question like \"Give me an exercise, nutrition, and sleep plan\":\n- You MUST provide a complete nutrition plan\n- DO NOT transfer to exercise or sleep - they will handle their parts separately\n- The system will automatically route to other specialists after you respond\n\nYour response should be a complete, actionable nutrition recommendation.",
+        "version": 1
+      }
+    },
+    "nutrition_agent::episodes": {
+      "episode_8ac1a73f": {
+        "input": "can you give me an exercise, nutrition and sleep plan for the next 3 months?",
+        "response": "### Nutrition Plan for the Next 3 Months\n\nTo support your goals of improving sleep and reducing stress, here\u2019s a balanced nutrition plan that focuses on whole foods, nutrient density, and foods that promote relaxation.\n\n#### General Guidelines:\n- **Hydration**: Aim for at least 8 cups (64 ounces) of water daily. Herbal teas, especially chamomile or peppermint, can be soothing.\n- **Meal Timing**: Try to eat at regular intervals (every 3-4 hours) to maintain energy levels and stabilize blood sugar",
+        "feedback": "no feedback",
+        "timestamp": "2a9cd04c-90cc-4817-9665-a10c55ac6430"
+      }
+    },
+    "sleep_agent::instructions": {
+      "wellness_assistant": {
+        "instructions": "Updated Instructions: You are a Sleep Specialist. Your job is to provide sleep and rest optimization guidance.\n\nCRITICAL RULES - READ CAREFULLY:\n1. ALWAYS provide a complete sleep/rest answer if the question mentions sleep, rest, insomnia, or fatigue.\n2. DO NOT use transfer tools for multi-topic questions - just answer YOUR part fully.\n3. ONLY transfer if the ENTIRE question has NOTHING to do with sleep/rest.\n4. If user feedback indicates discomfort or pain related to a body part, ensure to acknowledge this and provide alternative recommendations that are gentler or easier on that specific area.\n5. Reinforce positive feedback by acknowledging effective approaches and suggesting similar strategies when applicable.\n6. Be specific about modifications needed to accommodate user feedback in your recommendations.\n\nFor a question like \"Give me an exercise, nutrition, and sleep plan\":\n- You MUST provide a complete sleep plan.\n- DO NOT transfer to exercise or nutrition - they will handle their parts separately.\n- The system will automatically route to other specialists after you respond.",
+        "version": 2
+      }
+    },
+    "sleep_agent::episodes": {
+      "episode_92687a30": {
+        "input": "can you give me an exercise, nutrition and sleep plan for the next 3 months?",
+        "response": "### Sleep Plan for the Next 3 Months\n\nTo help you improve your sleep quality and reduce stress, here\u2019s a comprehensive sleep plan tailored to your needs:\n\n#### 1. **Establish a Consistent Sleep Schedule**\n- **Bedtime**: Aim to go to bed at the same time every night, ideally between 10:00 PM and 11:00 PM.\n- **Wake-Up Time**: Set a consistent wake-up time, even on weekends, to regulate your body\u2019s internal clock.\n\n#### 2. **Create a Relaxing Bedtime Routine (30-60 minutes before bed)**\n- **Wind Do",
+        "feedback": "no feedback",
+        "timestamp": "0b615718-3633-4846-9663-22a22993560e"
+      },
+      "episode_e03bfcac": {
+        "input": "What exercise do you recomend to do first??",
+        "response": "[SLEEP SPECIALIST]\n\n### Sleep Plan for the Next 3 Months\n\nTo help you improve your sleep quality and reduce stress, here\u2019s a comprehensive sleep plan tailored to your needs:\n\n#### 1. **Establish a Consistent Sleep Schedule**\n- **Bedtime**: Aim to go to bed at the same time every night, ideally between 10:00 PM and 11:00 PM.\n- **Wake-Up Time**: Set a consistent wake-up time, even on weekends, to regulate your body\u2019s internal clock.\n\n#### 2. **Create a Relaxing Bedtime Routine (30-60 minutes befor",
+        "feedback": "that looks like it would hurt my shoulder... can you show me a different one that is easier on the shoulder?",
+        "timestamp": "c56fb923-1186-49b4-b8ea-8d7b0b37bdc9"
+      }
+    }
+  },
+  "memory_access_stats": {
+    "reads": {
+      "router": {
+        "short_term": 3,
+        "long_term": 0,
+        "semantic": 0,
+        "episodic": 0,
+        "procedural": 0
+      },
+      "exercise": {
+        "short_term": 3,
+        "long_term": 3,
+        "semantic": 3,
+        "episodic": 3,
+        "procedural": 3
+      },
+      "nutrition": {
+        "short_term": 1,
+        "long_term": 1,
+        "semantic": 1,
+        "episodic": 1,
+        "procedural": 1
+      },
+      "sleep": {
+        "short_term": 1,
+        "long_term": 1,
+        "semantic": 1,
+        "episodic": 1,
+        "procedural": 1
+      },
+      "feedback": {
+        "short_term": 0,
+        "long_term": 1,
+        "semantic": 0,
+        "episodic": 0,
+        "procedural": 2
+      }
+    },
+    "writes": {
+      "router": {
+        "short_term": 0,
+        "long_term": 0,
+        "semantic": 0,
+        "episodic": 0,
+        "procedural": 0
+      },
+      "exercise": {
+        "short_term": 3,
+        "long_term": 0,
+        "semantic": 0,
+        "episodic": 4,
+        "procedural": 0
+      },
+      "nutrition": {
+        "short_term": 1,
+        "long_term": 0,
+        "semantic": 0,
+        "episodic": 1,
+        "procedural": 0
+      },
+      "sleep": {
+        "short_term": 1,
+        "long_term": 0,
+        "semantic": 0,
+        "episodic": 2,
+        "procedural": 0
+      },
+      "feedback": {
+        "short_term": 0,
+        "long_term": 1,
+        "semantic": 0,
+        "episodic": 0,
+        "procedural": 2
+      }
+    }
+  }
+}
