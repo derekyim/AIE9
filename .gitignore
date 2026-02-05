@@ -7,5 +7,6 @@ __pycache__/
 *.pyc
 *.pyo
 uv.lock
-
-
+.langgraph_api/
+.venv
+workspace
