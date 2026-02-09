@@ -1,0 +1,19 @@
+{
+  "week": 1,
+  "date": "2026-02-09T17:44:27.780793",
+  "metrics": {
+    "energy_level": 4.5,
+    "sleep_hours_avg": 6.5,
+    "habits_completed": 3,
+    "habits_total": 5
+  },
+  "wins": [
+    "Maintained consistent wake time 5/7 days",
+    "Started morning walks"
+  ],
+  "challenges": [
+    "Still using phone before bed",
+    "Missed afternoon energy dip management"
+  ],
+  "next_week_focus": "Eliminate phone from bedroom"
+}

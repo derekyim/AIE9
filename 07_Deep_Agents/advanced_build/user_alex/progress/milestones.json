@@ -1,0 +1,31 @@
+{
+  "achieved": [
+    {
+      "milestone": "Completed initial wellness assessment",
+      "date": "2026-02-09T17:44:27.780432",
+      "category": "wellness"
+    },
+    {
+      "milestone": "Set up retirement savings account",
+      "date": "2026-01-15",
+      "category": "finance"
+    },
+    {
+      "milestone": "Established morning routine",
+      "date": "2026-01-20",
+      "category": "wellness"
+    }
+  ],
+  "in_progress": [
+    {
+      "milestone": "Build 3-month emergency fund",
+      "progress": 0.4,
+      "category": "finance"
+    },
+    {
+      "milestone": "30-day sleep improvement challenge",
+      "progress": 0.25,
+      "category": "wellness"
+    }
+  ]
+}

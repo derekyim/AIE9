@@ -1,0 +1,10 @@
+{
+  "style": "detailed",
+  "tone": "supportive",
+  "frequency": "weekly check-ins",
+  "preferred_time": "evening",
+  "format": [
+    "written summaries",
+    "action items"
+  ]
+}

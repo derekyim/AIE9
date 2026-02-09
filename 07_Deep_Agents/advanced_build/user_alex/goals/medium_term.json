@@ -1,0 +1,25 @@
+{
+  "timeframe": "3-12 months",
+  "goals": [
+    {
+      "goal": "Build 6-month emergency fund",
+      "status": "active",
+      "priority": 1
+    },
+    {
+      "goal": "Reduce work stress through boundaries",
+      "status": "pending",
+      "priority": 2
+    },
+    {
+      "goal": "Maintain consistent fitness routine and healthy weight",
+      "status": "active",
+      "priority": 3,
+      "details": {
+        "foundation": "90-day weight loss program completion",
+        "target": "Sustain 4-5 workouts per week long-term",
+        "focus": "Strength building and cardiovascular health"
+      }
+    }
+  ]
+}

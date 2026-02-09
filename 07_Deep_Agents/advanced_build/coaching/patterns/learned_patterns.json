@@ -1,0 +1,37 @@
+{
+  "effective_interventions": [
+    {
+      "pattern": "sleep_before_energy",
+      "description": "Users who fix sleep first see 2x faster improvement in energy levels",
+      "confidence": 0.85,
+      "sample_size": 127
+    },
+    {
+      "pattern": "small_habits_compound",
+      "description": "Starting with 5-min habits has 3x higher success than 30-min habits",
+      "confidence": 0.92,
+      "sample_size": 203
+    },
+    {
+      "pattern": "accountability_timing",
+      "description": "Weekly check-ins outperform daily for long-term habit formation",
+      "confidence": 0.78,
+      "sample_size": 89
+    }
+  ],
+  "common_blockers": [
+    {
+      "blocker": "perfectionism",
+      "description": "All-or-nothing thinking leads to early dropout",
+      "intervention": "Emphasize progress over perfection",
+      "success_rate": 0.73
+    },
+    {
+      "blocker": "overcommitment",
+      "description": "Setting too many goals simultaneously",
+      "intervention": "Limit to 1-2 active goals per domain",
+      "success_rate": 0.81
+    }
+  ],
+  "last_updated": "2026-02-09T17:44:27.781121"
+}

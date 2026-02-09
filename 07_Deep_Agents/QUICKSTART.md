@@ -1,6 +1,252 @@
-# Life Coach Agent Architecture
+# Life Coach Agent Advanced build
 
-## System Overview
+## ADVANCED BUILD NOTES
+
+Here's the build plan I followed
+
+starting bottom up from task 10 on the worksheet.
+- [x] try the cli on a toy example
+  - [x] cd 'workspace'; deepagents ;   
+  - [x] then it can see prior convos, the cli flag passed in the example doesnt exist
+- [x] reprompt the main system prompt to know about more specialists
+- [x] add specialists
+- [x] add skils
+- [x] add multiphase planning with dependencies - enhanced todo store
+  - [x] add phases
+  - [x] get phases to go in order
+- [x] add context management
+- [x] implement workflow
+- [x] confirm memory
+- [x] testing
+
+## A few of the Changes Implemented
+* Added helper functions to build and print out the plan
+* tested planner
+* todo tracking, updating.
+* Implemented 4 sub agent and a pile of new skills
+* new advanced_build directory is populated with below hierarchy including memory and results
+* prompt adjusted to cover multiple wellness areas
+
+
+
+
+
+## Context management File system and namespace strategy
+
+All context is currently stored in the filesystem due to the persistence requirement of the project.  THe structure is below.
+Basically the store is split into user level "user_alex" and then other global topics, here its 'coaching'
+
+```
+advanced_build/
+├── user_alex/                              # Per-user context
+│   ├── profile/                            # (user_id, "profile")
+│   │   ├── demographics.json               # Name, age, location, occupation
+│   │   ├── values.json                     # Core values, priorities, motivations
+│   │   └── life_situation.json             # Family, housing, employment
+│   │
+│   ├── goals/                              # (user_id, "goals")
+│   │   ├── short_term.json                 # 0-3 months goals
+│   │   ├── medium_term.json                # 3-12 months goals
+│   │   └── long_term.json                  # 1-5+ years goals
+│   │
+│   ├── progress/                           # (user_id, "progress")
+│   │   ├── milestones.json                 # Achieved & in-progress milestones
+│   │   ├── setbacks.json                   # Setbacks with learnings
+│   │   └── week_1_checkin.json             # Weekly check-ins
+│   │
+│   ├── preferences/                        # (user_id, "preferences")
+│   │   ├── communication.json              # Style, tone, frequency
+│   │   ├── coaching.json                   # Approach, accountability
+│   │   └── learning.json                   # Learning style, pace
+│   │
+│   ├── assessments/                        # Additional context
+│   ├── plans/
+│   └── resources/
+│
+└── coaching/                               # Global context (shared)
+    └── patterns/                           # ("coaching", "patterns")
+        └── learned_patterns.json           # Anonymized patterns across users
+```
+
+Here is the  Namespace → Directory Mapping
+
+| Namespace | Directory | Purpose |
+|-----------|-----------|---------|
+| `(user_id, "profile")` | `profile/` | Demographics, values, life situation |
+| `(user_id, "goals")` | `goals/` | Short, medium, long-term goals |
+| `(user_id, "progress")` | `progress/` | Milestones achieved, setbacks overcome |
+| `(user_id, "preferences")` | `preferences/` | Communication style, coaching approach |
+| `("coaching", "patterns")` | `coaching/patterns/` | Learned patterns across users (anonymized) |
+
+
+## Screenshots provided of:
+* generated plans "generated-plans.png"
+* progress tracking "progress-tracking.png"
+
+
+
+
+## Trace of an interaction 
+Here I gave it a set of prompts.  Then refine it later.
+
+### First start it off with some broad direction
+
+INPUT:
+result = life_coach.invoke({
+    "messages": [{
+        "role": "user",
+        "content": """Hi! My user_id is user_alex. I'd like you to create a 90 Day Action Plan to be a better person.
+
+I want to focus on:
+1. Building a consistent exercise routine (I can exercise 3x per week for 30 mins)
+2. Improve my finances and save money
+3. Improve my relationships and social connections
+4. Work towards a promotion at work
+
+Please create comprehensive plans for each area and save them as separate files I can reference."""
+    }]
+})
+
+OUTPUT:
+Life Coach response:
+Perfect! I've completed your comprehensive 90-day action plan to become a better person. Here's what I've created for you:
+
+## 🎉 Your Complete 90-Day Transformation Package
+
+I've created **5 detailed files** that you can reference throughout your journey:
+
+### 📋 Master Plan
+**`/alex_master_90day_action_plan.md`** - Your complete integrated 90-day roadmap with:
+- Daily and weekly schedules combining all four focus areas
+- Progress tracking templates
+- Milestone celebrations and rewards system  
+- Anxiety management strategies throughout
+- Technology tools and apps to support success
+
+### 📚 Individual Domain Plans
+
+1. **`/alex_fitness_plan_90days.md`** - Complete exercise program featuring:
+   - Progressive 12-week workout plan (3x/week, 30+ mins)
+   - Anxiety-friendly exercises with mindfulness integration
+   - Week-by-week progression from gentle yoga to circuit training
+   - Morning routine optimization for energy and sleep improvement
+
+2. **`/alex_financial_plan_90days.md`** - Comprehensive money management system:
+   - Goal to save $1,200 over 90 days
+   - Build $500 emergency fund
+   - Practical money-saving strategies and budgeting system
+   - Weekly and monthly financial tracking templates
+
+3. **`/alex_relationships_plan_90days.md`** - Social connection expansion plan:
+   - Anxiety-friendly approach to meeting new people
+   - Strategies for deepening existing relationships  
+   - Progressive challenges from comfort zone to hosting events
+   - Online and offline relationship building techniques
+
+4. **`/alex_career_plan_90days.md`** - Strategic promotion preparation:
+   - Skills assessment and development plan
+   - Professional networking and mentorship strategies
+   - Leadership development opportunities
+   - Performance improvement and visibility tactics
+
+## 🌟 Key Features Tailored for You
+
+✅ **Anxiety-Friendly**: Every plan considers your mild anxiety with gentle progressions and coping strategies  
+✅ **Vegetarian-Optimized**: Fitness and financial plans account for your dietary preferences  
+✅ **Morning-Focused**: Exercise routines designed for your preferred morning schedule  
+✅ **Detailed Communication**: Comprehensive plans matching your communication style preference  
+✅ **Energy & Sleep Goals**: All plans support your primary goals of better energy and sleep
+
+## 🚀 Your Next Steps
+
+1. **Review the Master Plan** to understand how everything integrates
+2. **Set your official start date** and mark it in the master plan
+3. **Set up tracking systems** (apps, calendar reminders, journal)
+4. **Read through each domain-specific plan** to familiarize yourself with the details
+5. **Begin Week 1** with confidence knowing you have a comprehensive roadmap
+
+## 📈 Expected Outcomes After 90 Days
+
+- **Fitness**: Established exercise habit with increased energy and better sleep
+- **Finance**: $1,200+ saved with sustainable budgeting habits  
+- **Relationships**: Expanded social network with deeper, more meaningful connections
+- **Career**: Clear path toward promotion with enhanced skills and professional visibility
+
+All plans are designed to work together synergistically - your morning exercise routine supports energy for career activities, your financial discipline creates confidence for social activities, and your relationship building supports professional networking.
+
+You have everything you need to transform into the better person you want to become. The journey starts with your first morning workout and your first tracked expense. You've got this! 💪✨
+
+
+### NOW tell it to hone in on a few areas
+
+
+result = life_coach.invoke({
+    "messages": [{
+        "role": "user",
+        "content": """Hi! My user_id is user_alex. I asked for you to create a 90 Day Action Plan to be a better person.  
+        Can your review the created files and make two more finance goals, I'd like to buy a car for 3k in 90 days.
+        Can you also make the exercise goal more specific, I'd like to lose 10lbs in 90 days.
+        """
+    }]
+})
+
+Life Coach response:
+Perfect! I've completed your 90 Day Action Plan with your requested updates. Here's what I've created and updated:
+
+## 📋 **Plan Review & Updates Completed**
+
+### 🆕 **New Comprehensive 90 Day Action Plan**
+I've created a detailed `/user_alex/plans/90_day_action_plan.md` that integrates all aspects of becoming a better person:
+
+**Key Features:**
+- **Structured 90-day timeline** with monthly phases
+- **Weekly milestones** and daily habits
+- **Family-integrated activities** considering your dependent
+- **Realistic scheduling** for your full-time software engineer role
+
+### 💰 **Updated Finance Goals (As Requested)**
+1. **Car Purchase Goal:** Save $3,000 in 90 days
+   - Month 1: $500 + Month 2: $500 + Month 3: $1,000
+   - Integrated with your existing emergency fund goal
+   - Specific strategies for SF cost of living
+
+2. **Emergency Fund Completion:** Add $1,800 over 90 days
+   - $600/month to complete your 6-month fund
+   - Currently at 40% → Target: 100% completion
+
+### 🏃‍♂️ **Specific Exercise Goal (As Requested)**
+**Goal:** Lose 10 pounds in 90 days through structured routine
+- **Phase 1 (Month 1):** 3x/week foundation building
+- **Phase 2 (Month 2):** 4x/week intensity building  
+- **Phase 3 (Month 3):** 5x/week peak performance
+- **Family-friendly:** Saturday activities include your dependent
+- **Realistic:** Morning/evening options for your work schedule
+
+### 🎯 **Integration with Existing Plans**
+- **Maintained** your successful energy improvement plan (6:30 AM wake, sleep hygiene)
+- **Built upon** your current 7/10 energy level goal
+- **Aligned** with your values: health, family, financial security
+- **Respected** your moderate coaching preference and detailed communication style
+
+### 📊 **Updated Goal Files**
+- **Short-term goals** now include specific 10lb weight loss and $3k car purchase
+- **Medium-term goals** updated to reflect fitness routine evolution
+- **All goals** have detailed tracking metrics and timelines
+
+## 🎉 **Your Next Steps**
+1. **Week 1 Actions:** Set up budget tracking, schedule first 3 workouts, take baseline measurements
+2. **Car Research:** Start looking at vehicles in your $3k range
+3. **Family Discussion:** Share the plan with your spouse for support
+4. **Track Progress:** Weekly weigh-ins and financial check-ins
+
+The plan is designed to work with your busy life as a software engineer and family person, while being ambitious enough to create real transformation. You've got this! 💪
+
+Would you like me to explain any part of the plan in more detail or help you get started with the first week's action items?
+
+
+## Multi-subagent Relationships Diagram
+
+
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐

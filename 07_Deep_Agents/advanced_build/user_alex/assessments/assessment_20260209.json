@@ -1,0 +1,12 @@
+{
+  "type": "initial_wellness_assessment",
+  "date": "2026-02-09T17:44:27.779961",
+  "responses": {
+    "energy_level": 4,
+    "sleep_quality": 5,
+    "stress_level": 7,
+    "exercise_frequency": 2,
+    "nutrition_quality": 6
+  },
+  "notes": "User reports feeling tired most afternoons, difficulty falling asleep due to work stress."
+}

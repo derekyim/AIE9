@@ -1,0 +1,52 @@
+{
+  "timeframe": "0-3 months",
+  "goals": [
+    {
+      "goal": "Improve energy levels from 4/10 to 7/10",
+      "status": "active",
+      "priority": 1
+    },
+    {
+      "goal": "Establish consistent sleep schedule",
+      "status": "active",
+      "priority": 2
+    },
+    {
+      "goal": "Create monthly budget",
+      "status": "active",
+      "priority": 3
+    },
+    {
+      "goal": "Lose 10 pounds through structured exercise routine",
+      "status": "active",
+      "priority": 4,
+      "details": {
+        "target_weight_loss": "10 lbs",
+        "timeline": "90 days",
+        "method": "4-5 workouts per week, progressive intensity",
+        "tracking": "weekly weigh-ins and measurements"
+      }
+    },
+    {
+      "goal": "Save $3,000 to purchase a car",
+      "status": "active",
+      "priority": 5,
+      "details": {
+        "target_amount": "$3,000",
+        "timeline": "90 days",
+        "monthly_savings": "$1,000 average",
+        "method": "dedicated car fund + budget optimization"
+      }
+    },
+    {
+      "goal": "Complete 6-month emergency fund ($1,800 remaining)",
+      "status": "active",
+      "priority": 6,
+      "details": {
+        "remaining_amount": "$1,800",
+        "monthly_contribution": "$600",
+        "current_progress": "40% complete"
+      }
+    }
+  ]
+}

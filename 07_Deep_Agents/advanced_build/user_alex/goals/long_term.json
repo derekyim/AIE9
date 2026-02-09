@@ -1,0 +1,20 @@
+{
+  "timeframe": "1-5+ years",
+  "goals": [
+    {
+      "goal": "Retire by age 60",
+      "status": "planning",
+      "priority": 1
+    },
+    {
+      "goal": "Achieve optimal health for longevity",
+      "status": "active",
+      "priority": 2
+    },
+    {
+      "goal": "Build strong family relationships",
+      "status": "active",
+      "priority": 3
+    }
+  ]
+}
