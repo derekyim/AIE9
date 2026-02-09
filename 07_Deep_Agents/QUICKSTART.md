@@ -86,11 +86,12 @@ Here is the  Namespace → Directory Mapping
 
 
 
-## Trace of an interaction 
+# Trace of an interaction 
 Here I gave it a set of prompts.  Then refine it later.
 
-### First start it off with some broad direction
-
+---------------------------
+## STEP 1:  start it off with some broad direction
+---------------------------
 INPUT:
 result = life_coach.invoke({
     "messages": [{
@@ -176,9 +177,9 @@ All plans are designed to work together synergistically - your morning exercise 
 
 You have everything you need to transform into the better person you want to become. The journey starts with your first morning workout and your first tracked expense. You've got this! 💪✨
 
-
-### NOW tell it to hone in on a few areas
-
+---------------------------
+## STEP 2:  NOW tell it to hone in on a few areas
+---------------------------
 
 result = life_coach.invoke({
     "messages": [{
