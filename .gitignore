@@ -10,3 +10,4 @@ uv.lock
 .langgraph_api/
 .venv
 workspace
+*/credentials.json
