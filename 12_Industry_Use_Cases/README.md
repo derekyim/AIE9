@@ -3,71 +3,64 @@
      height="auto"/>
 </p>
 
-## <h1 align="center" id="heading">Session 11: Advanced Retrieval with LangChain</h1>
+## <h1 align="center" id="heading">Session 12: Industry Use Cases</h1>
 | 📰 Session Sheet | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
 | [Indusry Use Cases](../00_Docs/Session_Sheets/12_Industry_Use_Cases) | Coming soon! | Coming soon! | You are here! | Coming soon! | Coming soon! |
-# Overview
+
+# 🗺️ Overview
 
 Welcome to the middle of the course!  We’re 5 weeks in, and we’ve covered a lot of ground - you all certainly have enough prototyping skill to be dangerous!
 
-At this point, it’s important to consider everything in front of us as a blank page - blue sky!
+It’s time to align the skills we’ve learned with the specific direction that _you’re aiming at_.
 
-It’s time to align the general skills we’ve learned (and will continue to learn!) in the specific direction aligned with what you’re aiming at.
+What are your goals for 2026? How can you build 🏗️, ship 🚢, and share 🚀 your way towards achieving them?
 
-What are your goals for the rest of 2025 and into 2026?
+The Certification Challenge invites you to take a step towards them.
 
-How can you build 🏗️, ship 🚢, and share 🚀 your way towards achieving them?
+> 💡 Remember, *you know enough already to be dangerous*. You already know enough of the concepts and code you need to build, ship, and share production AI applications
 
-It all starts now, with the Certification Challenge, which is the next step towards continuing your journey to Demo Day!
-
-<aside>
-💡
-
-Remember, *you know enough already to be dangerous*. You already know enough of the concepts and code you need to build, ship, and share production AI applications! 
-
-</aside>
-
-And this is what the Certification challenge is all about - putting **your skills to the tes**t!
+It's time to put your skills to the test!
 
 # Setting Expectations
 
 During Cohort 8, here is how the numbers shook out. It took an average of 26.2 hours for people to complete the challenge. This is up slightly from 23.2 hours on average in Cohort 7.
 
 <p align="center">
-  <img src="../00_Docs/Session_Sheets/12_Industry_Use_Cases/ccChart.webp" width="80%" />
+  <img src="ccChart.webp" width="80%" />
 </p>
 
-It’s very much worth considering that the kind of AI Engineering work we’re doing; that is, scoping a problem, creating a solution to that problem that solves a specific pain point for real customers or stakeholders, and engineering it for scale from day 1, is extremely valuable work.
-
-In our opinion, **this is the kind of pilot project work that you should be charging $5-20k as a solo consultant**.
+This type of work, though - scoping a problem, creating a solution to that problem that solves a specific pain point for real customers or stakeholders, and engineering it for scale from day 1, is extremely valuable work. **This kind of pilot project work is easily worth $10-20k for as a solo consultant**. Of course, finding the right buyer and getting them to buy is a separate issue...
 
 It is also the kind of work that, after you take a few shots on goal, will become faster and faster for you to knock out.
 
-Finally, it’s worth noting that [Certified AI Engineers](https://aimakerspace.io/graduates/) not only are at the top of hiring lists within our network, but we’ve worked with multiple former students & solo consultants in the past to fill up their plate with project work, and we’ve helped certified students running startups to build out their teams.
+Finally, it’s worth noting that [Certified AI Engineers](https://aimakerspace.io/graduates/) not only are at the top of hiring lists within our network, but many of them have started their own startups or solo consultancies and still collaborate with us when it comes to generating new business, hiring talent, and serving as enterprise trainers.
 
 What is in your future as an AI Engineer or AI Engineering Leader?
 
-# Your Project Project Idea
+Whatever it is, it will start with the first question of The Certification Challenge: What are you building, and why?
 
-*In week 2-3, you’ve already decided on and submitted your project idea.* 
+Of course, you've already answered this!
 
-You should’ve used a framework like this:
+# Your Project Idea
 
-1. What **problem** are you trying to solve?  
-*Why is this a problem?*
-2. What is your proposed **solution**?  
-*Why is this the best solution?*
-3. Who is the **audience** that has this problem and would use your solution?  
-*Do they nod their head up and down when you talk to them about it?*
+Earlier in the cohort, we asked you to submit a project idea using a framework like this: Problem, Solution, Audience. 
 
-Problem, Solution, Audience. 
+1. What **problem** are you trying to solve? *Why is this a problem?*
+2. What is your proposed **solution**? *Why is this the best solution?*
+3. Who is the **audience** that has this problem and would use your solution? *Do they nod their head up and down when you talk to them about it?*
 
 That’s really all you need. 
 
-We might call this *AI Product Management*. This work asks “**what** should I build and why?”
+These kinds of things are important to iron out during the project scoping process, which can save us many headaches as we start building if done right!
 
-From there, we need to do some *AI Engineering*. This work asks “**how** should I build, evaluate, and improve?”
+Remember, _planning is essential_. Thinking through things, step-by-step, and reasoning all the way to the end is extremely valuable to do ahead of excecuting a plan of action.
+
+Agents know this, as humans.
+
+A fitting name it has to do this type of work today: *AI Product Management*. This work asks “**what** should I build and why?”
+
+Once we scope the project, we need to do some *AI Engineering*. This work asks “**how** should I build, evaluate, and improve?”
 
 The best AI engineers can do both.
 
