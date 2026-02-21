@@ -15,4 +15,10 @@ dependencies = [
     "qdrant-client>=1.13.2",
     "rank-bm25>=0.2.2",
     "langchain-qdrant>=0.2.0",
+    "langchain-core>=0.3.83",
+    "langchain-community>=0.3.31",
+    "langchain-text-splitters>=0.3.11",
+    "ragas>=0.4.3",
+    "nltk>=3.9.2",
+    "rapidfuzz>=3.14.3",
 ]
