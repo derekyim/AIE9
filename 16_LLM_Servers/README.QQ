@@ -83,16 +83,12 @@ What is the difference between serverless and dedicated endpoints?
 
 #### ✅ Answer:
 
-##### Serverless
-When we talk about serverless endpoints we're referencing buying time on on demand GPUs.  You pay more per hour technically, but if you only need the compute during business hours and during the week (40 hrs) then an on-demand GPU is a great choice.  Also if you have very unpredictable workloads, say an app where everyone asks a lot of questions around a specific daily event, like ordering lunch, then you'd want serverless to auto-scale up to meet the demand.  Again you wouldn't want to buy/rent GPUs to handle maxium capacity just for a few events.
-The downside is there are cold start delays of seconds and up to minutes to spin up services and get them running, so you need strategies to compensate for this AND/OR user interfaces that alert the user that 'this could take a while'.
+* serverless: on demand GPUs
 
-##### Dedicated
-When using a dedicated ednpoing, you are paying for dedicated GPUs, RAM, CPUs, etc.  YOu are paying for this infrastructure 24x7 even if there is no traffic or no inference requests.  You will get consistent and higher higher performance, AND you need to consider scaling.  If your application has 'bursts' where you need lots of throughput, then a normal machine will queue requests, slow down and ultimately will return errors if you go far beyond its capacity.  These are the same concepts in web load balancing and autoscaling applied to LLM resources.  Amazon Lambda and GCP's Cloud Functions already provide a good mental model here.
-
-##### Overall
-If you are playing/prototyping then go serverless and spin them up/down like we are doing in this class.  You can even deploy serverless, but consider moving to dedicated when you have the budget and require performance at scale.
-
+* dedicated: paying for dedicated GPUs
+** higher performance
+** higher cost
+** paying 24x7
 
 
 ### ❓ Question #2:
@@ -101,21 +97,14 @@ Why is it important to consider token throughput and latency when choosing an LL
 
 #### ✅ Answer:
 
-Both token throughput and latency are important when choosing an LLM because they directly affect user experience, system scalability, and operational efficiency.
+* token thorughput : how many tokens can you handle
+* latency: time to respond
 
-Token throughput refers to how many tokens a model can process or generate per second. Higher throughput enables an application to handle larger prompts, longer responses, or many concurrent users without slowing down. In production systems—such as chatbots, copilots, or AI assistants—high throughput allows the system to scale efficiently as demand increases.
+Consider when choosing an LLM based on the complexity of requests
 
-Latency refers to the time it takes for the model to begin producing a response after receiving a request. In interactive applications, latency strongly impacts perceived responsiveness. If a response takes several seconds to begin streaming, users may perceive the application as slow or unreliable.
-
-The acceptable balance between throughput and latency depends on the specific use case:
-
-Real-time applications (customer support chatbots, coding assistants, AI copilots) require very low latency so conversations feel natural.
-
-Batch or background processing tasks (document analysis, data extraction, report generation) can tolerate higher latency because responses are not immediately visible to a user.
-
-Complex reasoning tasks may require larger prompts and longer outputs, which increases both latency and token consumption.
-
-Developers must therefore choose a model that provides the right trade-off between speed, scalability, and capability for the application's workload. Optimizing for token throughput and latency ensures that the application remains responsive for users while also controlling infrastructure costs and system performance at scale.
+How much response time can you handle?
+Depends on the use case.
+* where can you tolerate latency.
 
 
 ## Activity 1: RAGAS Evaluation with Cost Analysis

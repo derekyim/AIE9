@@ -91,7 +91,7 @@ def _build_rag_graph(data_dir: str):
     )
     chat_prompt = ChatPromptTemplate.from_messages([("human", human_template)])
     generator_llm = ChatOpenAI(
-        model=os.environ.get("FIREWORKS_CHAT_MODEL", "accounts/fireworks/models/gpt-oss-20b"),
+        model=os.environ.get("FIREWORKS_CHAT_MODEL_DEREKY", "accounts/fireworks/models/gpt-oss-20b"),
         openai_api_key=os.environ["FIREWORKS_API_KEY"],
         openai_api_base="https://api.fireworks.ai/inference/v1",
     )
