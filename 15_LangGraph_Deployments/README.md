@@ -126,7 +126,7 @@ Create your own agent graph! Build a new graph in `app/graphs/` with a custom ev
 
 Ok, I added the ability to do spanish translation.
 
-tr
+turns out. gpt 4.1 does NOT speak Klingon.. so that took an hour to figure that out :(
 
 in one window:
 
