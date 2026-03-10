@@ -19,7 +19,15 @@ In addition to the tools we've already learned, in this session you'll need:
    
 ## 📜 Recommended Reading
 
+**MCP (Model Context Protocol)**
 - [What is MCP?](https://modelcontextprotocol.io/docs/getting-started/intro) (from the spec)
-- [A2A Announcement](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) (April 2025)
+- [MCP-UI](https://mcpui.dev/) — Official standard for interactive UI in MCP
+- [MCP Auth Guide (Auth0)](https://auth0.com/blog/mcp-specs-update-all-about-auth/) — Deep dive into MCP auth spec updates
 
+**A2A (Agent-to-Agent Protocol)**
+- [A2A Official Docs](https://a2a-protocol.org/latest/) — Spec and guides
+- [A2A GitHub Repo](https://github.com/a2aproject/A2A) — Protocol spec and implementations
+- [Announcing A2A (Google Blog)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — Protocol vision and motivation (April 2025)
 
+**MCP vs A2A**
+- [A2A and MCP (Official)](https://a2a-protocol.org/latest/topics/a2a-and-mcp/) — How they complement each other
